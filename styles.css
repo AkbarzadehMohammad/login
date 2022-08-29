@@ -34,6 +34,7 @@ input{
     border-radius: 0;
     cursor: pointer;
     text-align: left;
+    outline: none;
 
 }
 button{
@@ -48,6 +49,7 @@ button{
     cursor: pointer;
     border: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: 2s;
 }
 span{
     color: rgb(0,212,255); 
@@ -63,6 +65,7 @@ p{
 }
 
 button:hover{
+    transform: 2s;
     background: rgb(0,212,255);
     background: linear-gradient(90deg, rgba(0,212,255,1) 21%, rgba(9,9,121,1) 96%);
 }
